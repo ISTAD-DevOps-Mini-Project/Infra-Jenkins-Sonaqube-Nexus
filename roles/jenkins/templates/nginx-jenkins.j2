@@ -15,3 +15,15 @@ server {
         proxy_redirect off;
     }
 }
+server {
+    if ($host = jenkins.devnerd.store) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    listen 80;
+    listen [::]:80;
+  
+     server_name jenkins.devnerd.store;
+    return 404; # managed by Certbot
+}

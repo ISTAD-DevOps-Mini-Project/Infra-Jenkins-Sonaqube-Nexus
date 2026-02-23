@@ -47,6 +47,7 @@
       items:
         - http-server
         - https-server
+        - ssh
   register: gcp_instance
 
 - name: Write instance info to JSON file

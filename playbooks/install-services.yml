@@ -1,7 +1,7 @@
 ---
 - name: Install services on Jenkins machine
   hosts: jenkins
-  gather_facts: true
+  gather_facts: true # Before installing Docker & Jenkins, Ansible will run the setup module to collect system info from the Jenkins server.
   become: true
   roles:
     - role: docker
