@@ -1,7 +1,7 @@
 {
     "changed": true,
     "cpuPlatform": "Intel Broadwell",
-    "creationTimestamp": "2026-02-22T18:10:34.200-08:00",
+    "creationTimestamp": "2026-02-23T01:08:25.953-08:00",
     "deletionProtection": false,
     "disks": [
         {
@@ -54,17 +54,17 @@
                     }
                 ]
             },
-            "source": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/asia-southeast1-a/disks/sonarqube",
+            "source": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/europe-central2-b/disks/sonarqube",
             "type": "PERSISTENT"
         }
     ],
     "failed": false,
-    "fingerprint": "-iQ8Mpp-b5s=",
-    "id": "6955743905957939702",
+    "fingerprint": "fCmK3Pr4itw=",
+    "id": "5566214714598467558",
     "kind": "compute#instance",
     "labelFingerprint": "42WmSpB8rSM=",
-    "lastStartTimestamp": "2026-02-22T18:10:45.837-08:00",
-    "machineType": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/asia-southeast1-a/machineTypes/e2-medium",
+    "lastStartTimestamp": "2026-02-23T01:08:36.278-08:00",
+    "machineType": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/europe-central2-b/machineTypes/e2-medium",
     "metadata": {},
     "name": "sonarqube",
     "networkInterfaces": [
@@ -73,18 +73,18 @@
                 {
                     "kind": "compute#accessConfig",
                     "name": "External NAT",
-                    "natIP": "34.142.203.0",
+                    "natIP": "34.118.35.111",
                     "networkTier": "PREMIUM",
                     "type": "ONE_TO_ONE_NAT"
                 }
             ],
-            "fingerprint": "Nih7GVVTzL0=",
+            "fingerprint": "4qHSaK6V6Gc=",
             "kind": "compute#networkInterface",
             "name": "nic0",
             "network": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/global/networks/default",
-            "networkIP": "10.148.0.24",
+            "networkIP": "10.186.0.15",
             "stackType": "IPV4_ONLY",
-            "subnetwork": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/regions/asia-southeast1/subnetworks/default"
+            "subnetwork": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/regions/europe-central2/subnetworks/default"
         }
     ],
     "resourceStatus": {
@@ -99,7 +99,7 @@
         "preemptible": false,
         "provisioningModel": "STANDARD"
     },
-    "selfLink": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/asia-southeast1-a/instances/sonarqube",
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/europe-central2-b/instances/sonarqube",
     "shieldedInstanceConfig": {
         "enableIntegrityMonitoring": true,
         "enableSecureBoot": false,
@@ -118,5 +118,5 @@
             "ssh"
         ]
     },
-    "zone": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/asia-southeast1-a"
+    "zone": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/europe-central2-b"
 }

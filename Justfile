@@ -4,6 +4,14 @@
 create-infra:
     echo "Creating GCP infrastructure (Jenkins, SonarQube, Nexus) ..."
     ansible-playbook playbooks/create-infra.yml
+    echo "Installing services on all machines (Docker, Jenkins, SonarQube, Nexus, Portainer) ..."
+    ansible-playbook playbooks/install-services.yml -i inventory/gcp_dynamic.ini
+
+create-jenkins-vm: 
+  echo "Testing for creating VM"
+  
+
+
 
 # Destroy DevOps infrastructure
 destroy-infra:

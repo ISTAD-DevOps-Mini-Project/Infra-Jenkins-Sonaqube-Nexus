@@ -1,7 +1,7 @@
 {
     "changed": true,
     "cpuPlatform": "Intel Broadwell",
-    "creationTimestamp": "2026-02-22T18:10:19.307-08:00",
+    "creationTimestamp": "2026-02-23T01:08:08.543-08:00",
     "deletionProtection": false,
     "disks": [
         {
@@ -54,17 +54,17 @@
                     }
                 ]
             },
-            "source": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/asia-southeast1-a/disks/jenkins",
+            "source": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/europe-central2-b/disks/jenkins",
             "type": "PERSISTENT"
         }
     ],
     "failed": false,
-    "fingerprint": "57WPN64Sfp0=",
-    "id": "968077166211631588",
+    "fingerprint": "nftn6bsCL6k=",
+    "id": "2758029860838417943",
     "kind": "compute#instance",
     "labelFingerprint": "42WmSpB8rSM=",
-    "lastStartTimestamp": "2026-02-22T18:10:28.356-08:00",
-    "machineType": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/asia-southeast1-a/machineTypes/e2-medium",
+    "lastStartTimestamp": "2026-02-23T01:08:16.963-08:00",
+    "machineType": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/europe-central2-b/machineTypes/e2-medium",
     "metadata": {},
     "name": "jenkins",
     "networkInterfaces": [
@@ -73,18 +73,18 @@
                 {
                     "kind": "compute#accessConfig",
                     "name": "External NAT",
-                    "natIP": "34.126.70.41",
+                    "natIP": "34.118.21.19",
                     "networkTier": "PREMIUM",
                     "type": "ONE_TO_ONE_NAT"
                 }
             ],
-            "fingerprint": "3uHSqiZXWeg=",
+            "fingerprint": "QmcBMyC8GLI=",
             "kind": "compute#networkInterface",
             "name": "nic0",
             "network": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/global/networks/default",
-            "networkIP": "10.148.0.23",
+            "networkIP": "10.186.0.14",
             "stackType": "IPV4_ONLY",
-            "subnetwork": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/regions/asia-southeast1/subnetworks/default"
+            "subnetwork": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/regions/europe-central2/subnetworks/default"
         }
     ],
     "resourceStatus": {
@@ -99,7 +99,7 @@
         "preemptible": false,
         "provisioningModel": "STANDARD"
     },
-    "selfLink": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/asia-southeast1-a/instances/jenkins",
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/europe-central2-b/instances/jenkins",
     "shieldedInstanceConfig": {
         "enableIntegrityMonitoring": true,
         "enableSecureBoot": false,
@@ -118,5 +118,5 @@
             "ssh"
         ]
     },
-    "zone": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/asia-southeast1-a"
+    "zone": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/europe-central2-b"
 }

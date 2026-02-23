@@ -1,7 +1,7 @@
 {
     "changed": true,
     "cpuPlatform": "Intel Broadwell",
-    "creationTimestamp": "2026-02-22T18:10:52.543-08:00",
+    "creationTimestamp": "2026-02-23T01:08:51.560-08:00",
     "deletionProtection": false,
     "disks": [
         {
@@ -54,17 +54,17 @@
                     }
                 ]
             },
-            "source": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/asia-southeast1-a/disks/nexus",
+            "source": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/europe-central2-b/disks/nexus",
             "type": "PERSISTENT"
         }
     ],
     "failed": false,
-    "fingerprint": "FA7AaO22VqI=",
-    "id": "996655766930065859",
+    "fingerprint": "vZgXj0DMVzU=",
+    "id": "66010678295635916",
     "kind": "compute#instance",
     "labelFingerprint": "42WmSpB8rSM=",
-    "lastStartTimestamp": "2026-02-22T18:11:03.836-08:00",
-    "machineType": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/asia-southeast1-a/machineTypes/e2-medium",
+    "lastStartTimestamp": "2026-02-23T01:09:01.889-08:00",
+    "machineType": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/europe-central2-b/machineTypes/e2-medium",
     "metadata": {},
     "name": "nexus",
     "networkInterfaces": [
@@ -73,18 +73,18 @@
                 {
                     "kind": "compute#accessConfig",
                     "name": "External NAT",
-                    "natIP": "34.143.171.44",
+                    "natIP": "34.118.71.224",
                     "networkTier": "PREMIUM",
                     "type": "ONE_TO_ONE_NAT"
                 }
             ],
-            "fingerprint": "gqxLeLG6eYQ=",
+            "fingerprint": "l5Ffqaiult8=",
             "kind": "compute#networkInterface",
             "name": "nic0",
             "network": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/global/networks/default",
-            "networkIP": "10.148.0.25",
+            "networkIP": "10.186.0.16",
             "stackType": "IPV4_ONLY",
-            "subnetwork": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/regions/asia-southeast1/subnetworks/default"
+            "subnetwork": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/regions/europe-central2/subnetworks/default"
         }
     ],
     "resourceStatus": {
@@ -99,7 +99,7 @@
         "preemptible": false,
         "provisioningModel": "STANDARD"
     },
-    "selfLink": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/asia-southeast1-a/instances/nexus",
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/europe-central2-b/instances/nexus",
     "shieldedInstanceConfig": {
         "enableIntegrityMonitoring": true,
         "enableSecureBoot": false,
@@ -118,5 +118,5 @@
             "ssh"
         ]
     },
-    "zone": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/asia-southeast1-a"
+    "zone": "https://www.googleapis.com/compute/v1/projects/devmentor-445804/zones/europe-central2-b"
 }
